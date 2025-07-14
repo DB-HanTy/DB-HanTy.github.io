@@ -28,7 +28,7 @@
 .tip-button.clicked::before {
   height: 0.5rem;
   width: 60%;
-  background: $button-hover-color;
+  background: #4a90e2;
 }
 .tip-button.clicked .coin {
   transition: margin-bottom 1s linear 200ms;
