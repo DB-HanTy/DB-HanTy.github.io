@@ -6,7 +6,7 @@
   <link href="https://db-hanty.github.io/atom.xml" rel="self"/>
   
   <link href="https://db-hanty.github.io/"/>
-  <updated>2025-07-14T15:24:58.437Z</updated>
+  <updated>2025-07-15T04:51:47.088Z</updated>
   <id>https://db-hanty.github.io/</id>
   
   <author>
@@ -21,11 +21,15 @@
     <link href="https://db-hanty.github.io/posts/dfb8a81f.html"/>
     <id>https://db-hanty.github.io/posts/dfb8a81f.html</id>
     <published>2025-07-13T17:03:11.000Z</published>
-    <updated>2025-07-14T15:24:58.437Z</updated>
+    <updated>2025-07-15T04:51:47.088Z</updated>
     
     
     
     
+    <category term="技术" scheme="https://db-hanty.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+    <category term="技术" scheme="https://db-hanty.github.io/tags/%E6%8A%80%E6%9C%AF/"/>
     
   </entry>
   
