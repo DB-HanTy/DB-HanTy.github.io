@@ -6,7 +6,7 @@
   <link href="https://db-hanty.github.io/atom.xml" rel="self"/>
   
   <link href="https://db-hanty.github.io/"/>
-  <updated>2025-07-15T13:57:29.360Z</updated>
+  <updated>2025-07-16T03:13:30.032Z</updated>
   <id>https://db-hanty.github.io/</id>
   
   <author>
@@ -17,11 +17,31 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>Hello World</title>
+    <link href="https://db-hanty.github.io/posts/4a17b156.html"/>
+    <id>https://db-hanty.github.io/posts/4a17b156.html</id>
+    <published>2025-07-16T03:13:30.032Z</published>
+    <updated>2025-07-16T03:13:30.032Z</updated>
+    
+    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
+      
+    
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>《富爸爸穷爸爸》读书报告</title>
     <link href="https://db-hanty.github.io/posts/e17b4fc3.html"/>
     <id>https://db-hanty.github.io/posts/e17b4fc3.html</id>
-    <published>2025-07-15T13:56:10.000Z</published>
-    <updated>2025-07-15T13:57:29.360Z</updated>
+    <published>2025-07-15T21:56:10.000Z</published>
+    <updated>2025-07-16T03:13:30.032Z</updated>
     
     <content type="html"><![CDATA[<h1 id="《富爸爸穷爸爸》读书报告"><a href="#《富爸爸穷爸爸》读书报告" class="headerlink" title="《富爸爸穷爸爸》读书报告"></a><center>《富爸爸穷爸爸》读书报告</h1><h2 id="一、核心观点概述"><a href="#一、核心观点概述" class="headerlink" title="一、核心观点概述"></a>一、核心观点概述</h2><h5 id="传统教育的局限性："><a href="#传统教育的局限性：" class="headerlink" title="传统教育的局限性："></a>传统教育的局限性：</h5><p>&emsp;&emsp;因为现在传统教育的<strong>局限性</strong>，使得很多人无法保障财务成功，因此<strong>财商（理财智慧）</strong>比学术成绩更重要。</p><h5 id="关键能力："><a href="#关键能力：" class="headerlink" title="关键能力："></a>关键能力：</h5><p>&emsp;&emsp;让钱为自己工作，而并非为钱工作</p><h5 id="消费主义与储蓄的真相："><a href="#消费主义与储蓄的真相：" class="headerlink" title="消费主义与储蓄的真相："></a>消费主义与储蓄的真相：</h5><p>&emsp;&emsp;现代经济中，合理消费和投资比单纯储蓄更能创造财富</p><p><u><strong>区分资产（增加收入）与负债（消耗收入）是财务自由的基础</strong></u></p><h2 id="二、核心课程精要"><a href="#二、核心课程精要" class="headerlink" title="二、核心课程精要"></a>二、核心课程精要</h2><h3 id="Lesson-1：富人不为钱工作"><a href="#Lesson-1：富人不为钱工作" class="headerlink" title="Lesson 1：富人不为钱工作"></a>Lesson 1：富人不为钱工作</h3><p><strong>核心思想</strong>：打破<strong><em>“工作-赚钱-消费”</em></strong>的循环，通过资产积累实现被动收入</p><p>关键启示：</p><ul><li>恐惧和欲望是财务陷阱的根源（如害怕失业、盲目消费）</li><li>控制情绪，用理性决策代替本能反应</li></ul><h3 id="Lesson-2：财务知识的力量"><a href="#Lesson-2：财务知识的力量" class="headerlink" title="Lesson 2：财务知识的力量"></a>Lesson 2：财务知识的力量</h3><h5 id="资产与负债的定义："><a href="#资产与负债的定义：" class="headerlink" title="资产与负债的定义："></a>资产与负债的定义：</h5><div class="table-container"><table><thead><tr><th>概念</th><th>定义</th><th>例子</th></tr></thead><tbody><tr><td>资产</td><td>能带来现金流入（把钱放进你口袋里的东西）</td><td>股票、债券、共同基金、能够产生收入的房地产、票据、版税，如音乐、手稿、专利以及其他可产生收入的大小</td></tr><tr><td>负债</td><td>导致现金流出（把钱从你口袋里取走的东西）</td><td>房贷、车贷</td></tr></tbody></table></div><p>中产<strong>困境</strong>：误将负债（如自住房）当作资产</p><h5 id="财富的定义："><a href="#财富的定义：" class="headerlink" title="财富的定义："></a><strong>财富</strong>的定义：</h5><blockquote><p>财富是支撑一个人生存多长时间的能力，即不工作能活多久</p></blockquote><h3 id="Lesson-3：关注自己的事业"><a href="#Lesson-3：关注自己的事业" class="headerlink" title="Lesson 3：关注自己的事业"></a>Lesson 3：关注自己的事业</h3><h5 id="职业≠事业："><a href="#职业≠事业：" class="headerlink" title="职业≠事业："></a>职业≠事业：</h5><p>&emsp;职业为别人创造财富，事业为自己积累资产</p><h5 id="真正的资产类型："><a href="#真正的资产类型：" class="headerlink" title="真正的资产类型："></a>真正的资产类型：</h5><p>企业股权、知识产权、可产生收入的房地产等</p><p>行动<strong>建议</strong>：在职场外建立资产项，延迟奢侈品消费</p><h3 id="Lesson-4：税收与公司的力量"><a href="#Lesson-4：税收与公司的力量" class="headerlink" title="Lesson 4：税收与公司的力量"></a>Lesson 4：税收与公司的力量</h3><h5 id="富人逻辑："><a href="#富人逻辑：" class="headerlink" title="富人逻辑："></a>富人逻辑：</h5><p>利用公司结构合法减税（如企业支出抵扣）</p><h5 id="财商的四大支柱："><a href="#财商的四大支柱：" class="headerlink" title="财商的四大支柱："></a>财商的四大支柱：</h5><ul><li>会计</li><li>投资</li><li>市场</li><li>法律（尤其是税法）</li></ul><h3 id="Lesson-5：富人的投资思维"><a href="#Lesson-5：富人的投资思维" class="headerlink" title="Lesson 5：富人的投资思维"></a>Lesson 5：富人的投资思维</h3><blockquote><p>首先克服恐惧，风险永远存在，需通过知识降低风险</p></blockquote><h5 id="投资者类型："><a href="#投资者类型：" class="headerlink" title="投资者类型："></a>投资者类型：</h5><ul><li>被动投资者（购买现成产品）</li><li>主动投资者（创造投资机会，如创业或改造资产）</li></ul><p><strong>关键能力</strong>：<u>发现被忽视的机会、融资能力、整合资源</u></p><h3 id="Lesson-6：不为钱工作"><a href="#Lesson-6：不为钱工作" class="headerlink" title="Lesson 6：不为钱工作"></a>Lesson 6：不为钱工作</h3><h5 id="多技能发展："><a href="#多技能发展：" class="headerlink" title="多技能发展："></a>多技能发展：</h5><p>专业化是陷阱，需掌握销售、管理等综合能力</p><h5 id="长期视角："><a href="#长期视角：" class="headerlink" title="长期视角："></a>长期视角：</h5><p>工作是为了学习，而非短期工资</p><h2 id="三、实践行动指南"><a href="#三、实践行动指南" class="headerlink" title="三、实践行动指南"></a>三、实践行动指南</h2><h3 id="克服五大障碍"><a href="#克服五大障碍" class="headerlink" title="克服五大障碍"></a>克服五大障碍</h3><ol><li>恐惧→教育自己，从小投资开始</li><li>愤世嫉俗→用数据分析代替情绪化判断</li><li>懒惰→用”贪婪”（对美好生活的渴望）激励行动</li><li>坏习惯→优先支付自己（强制储蓄/投资）</li><li>傲慢→承认无知并持续学习</li></ol><h3 id="十步行动计划"><a href="#十步行动计划" class="headerlink" title="十步行动计划"></a>十步行动计划</h3><ol><li>找到深层理由（如自由、家庭保障）</li><li>每日学习财务知识（书籍、课程）</li><li>结交成功投资者，获取内线信息</li><li>掌握多种商业模式（如房地产、创业）</li><li>自律：先投资再消费，利用压力激发创造力</li><li>雇佣优秀顾问（如专业经纪人）</li><li>做”印第安给予者”：投资时规划退出策略</li><li>用资产收益购买奢侈品（如租金换车贷）</li><li>向榜样学习（如巴菲特、马斯克）</li><li>先给予后获取（资源互换思维）</li></ol><h3 id="立即行动建议"><a href="#立即行动建议" class="headerlink" title="立即行动建议"></a>立即行动建议</h3><ul><li>记账区分资产/负债</li><li>用月收入的10%购买资产（如指数基金、小户型出租房）</li><li>参加投资社群，寻找导师</li></ul><h2 id="四、总结与个人启示"><a href="#四、总结与个人启示" class="headerlink" title="四、总结与个人启示"></a>四、总结与个人启示</h2><p><strong><em><u>核心价值：本书颠覆了对金钱、工作和风险的认知，强调思维转变比盲目努力更重要</u></em></strong></p><h2 id="五、金句摘录"><a href="#五、金句摘录" class="headerlink" title="五、金句摘录"></a>五、金句摘录</h2><p>富人买入资产，穷人只有支出，中产购买他们以为是资产的负债</p><p>你无法为钱工作，除非你承认它在控制你</p><p>失败是成功的一部分——但学校只惩罚失败</p>]]></content>
     
@@ -44,8 +64,8 @@
     <title>技术随想</title>
     <link href="https://db-hanty.github.io/posts/dfb8a81f.html"/>
     <id>https://db-hanty.github.io/posts/dfb8a81f.html</id>
-    <published>2025-07-13T17:03:11.000Z</published>
-    <updated>2025-07-15T04:51:47.088Z</updated>
+    <published>2025-07-14T01:03:11.000Z</published>
+    <updated>2025-07-16T03:13:30.032Z</updated>
     
     
     
@@ -61,8 +81,8 @@
     <title>2025&#92;</title>
     <link href="https://db-hanty.github.io/posts/aeb0acd.html"/>
     <id>https://db-hanty.github.io/posts/aeb0acd.html</id>
-    <published>2025-07-10T14:06:20.000Z</published>
-    <updated>2025-07-14T15:24:51.877Z</updated>
+    <published>2025-07-10T22:06:20.000Z</published>
+    <updated>2025-07-16T03:13:30.031Z</updated>
     
     
     
@@ -74,29 +94,9 @@
     <title>测试文章</title>
     <link href="https://db-hanty.github.io/posts/7a6a6b5a.html"/>
     <id>https://db-hanty.github.io/posts/7a6a6b5a.html</id>
-    <published>2024-11-20T13:08:38.000Z</published>
-    <updated>2025-07-10T14:22:18.656Z</updated>
+    <published>2024-11-20T21:08:38.000Z</published>
+    <updated>2025-07-16T03:13:30.032Z</updated>
     
-    
-    
-    
-    
-  </entry>
-  
-  <entry>
-    <title>Hello World</title>
-    <link href="https://db-hanty.github.io/posts/4a17b156.html"/>
-    <id>https://db-hanty.github.io/posts/4a17b156.html</id>
-    <published>2024-11-20T12:39:53.426Z</published>
-    <updated>2025-07-10T14:22:18.659Z</updated>
-    
-    <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p><h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/writing.html">Writing</a></p><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/server.html">Server</a></p><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/generating.html">Generating</a></p><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure><p>More info: <a href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt; for</summary>
-      
     
     
     
