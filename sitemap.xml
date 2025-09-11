@@ -20,6 +20,24 @@
   </url>
   
   <url>
+    <loc>https://db-hanty.github.io/posts/f7de8aa8.html</loc>
+    
+    <lastmod>2025-09-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://db-hanty.github.io/posts/54788f73.html</loc>
+    
+    <lastmod>2025-09-11</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>https://db-hanty.github.io/posts/fe816c3c.html</loc>
     
     <lastmod>2025-09-11</lastmod>
@@ -92,7 +110,7 @@
   </url>
   
   <url>
-    <loc>https://db-hanty.github.io/about/index.html</loc>
+    <loc>https://db-hanty.github.io/categories/index.html</loc>
     
     <lastmod>2025-09-11</lastmod>
     
@@ -101,7 +119,7 @@
   </url>
   
   <url>
-    <loc>https://db-hanty.github.io/categories/index.html</loc>
+    <loc>https://db-hanty.github.io/about/index.html</loc>
     
     <lastmod>2025-09-11</lastmod>
     
@@ -128,15 +146,6 @@
   </url>
   
   <url>
-    <loc>https://db-hanty.github.io/posts/7b510e10.html</loc>
-    
-    <lastmod>2025-09-11</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://db-hanty.github.io/posts/6efdc0e0.html</loc>
     
     <lastmod>2025-09-11</lastmod>
@@ -155,16 +164,7 @@
   </url>
   
   <url>
-    <loc>https://db-hanty.github.io/posts/f7de8aa8.html</loc>
-    
-    <lastmod>2025-09-11</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://db-hanty.github.io/posts/54788f73.html</loc>
+    <loc>https://db-hanty.github.io/posts/7b510e10.html</loc>
     
     <lastmod>2025-09-11</lastmod>
     
@@ -203,14 +203,14 @@
   </url>
   
   <url>
-    <loc>https://db-hanty.github.io/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</loc>
+    <loc>https://db-hanty.github.io/tags/%E5%B7%A5%E5%85%B7/</loc>
     <lastmod>2025-09-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://db-hanty.github.io/tags/%E5%B7%A5%E5%85%B7/</loc>
+    <loc>https://db-hanty.github.io/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</loc>
     <lastmod>2025-09-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
