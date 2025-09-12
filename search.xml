@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>demo1</title>
+      <link href="/posts/55dc0e80.html"/>
+      <url>/posts/55dc0e80.html</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>使用git在GitHub上快速部署项目</title>
       <link href="/posts/6efdc0e0.html"/>
       <url>/posts/6efdc0e0.html</url>
@@ -332,7 +345,7 @@
       <link href="/posts/2c4abd50.html"/>
       <url>/posts/2c4abd50.html</url>
       
-        <content type="html"><![CDATA[<h1 id="设计模式快速入门"><a href="#设计模式快速入门" class="headerlink" title="设计模式快速入门"></a>设计模式快速入门</h1><h3 id="设计模式概念"><a href="#设计模式概念" class="headerlink" title="设计模式概念"></a>设计模式概念</h3><p>设计模式是针对软件设计中常见问题的标准化解决方案，提供可重用的设计模板。它们不是直接代码，而是描述如何组织代码结构的最佳实践，能提升代码可维护性、扩展性和复用性。</p><hr><h3 id="常用设计模式分类"><a href="#常用设计模式分类" class="headerlink" title="常用设计模式分类"></a>常用设计模式分类</h3><h4 id="创建型模式（处理对象创建）"><a href="#创建型模式（处理对象创建）" class="headerlink" title="创建型模式（处理对象创建）"></a>创建型模式（处理对象创建）</h4><ul><li><strong>单例模式</strong>：确保类只有一个实例（如全局配置管理器）。  </li><li><strong>工厂方法模式</strong>：子类决定实例化哪个类（如支付方式工厂）。  </li><li><strong>抽象工厂模式</strong>：创建相关对象族（如跨平台UI组件库）。  </li><li><strong>建造者模式</strong>：分步骤构建复杂对象（如SQL查询构造器）。  </li><li><strong>原型模式</strong>：通过克隆生成新对象（如游戏中的敌人复制）。  </li></ul><h4 id="结构型模式（处理对象组合）"><a href="#结构型模式（处理对象组合）" class="headerlink" title="结构型模式（处理对象组合）"></a>结构型模式（处理对象组合）</h4><ul><li><strong>适配器模式</strong>：转换接口兼容性（如旧API适配新系统）。  </li><li><strong>装饰器模式</strong>：动态扩展功能（如Java I/O流包装）。  </li><li><strong>代理模式</strong>：控制对象访问（如虚拟代理延迟加载图片）。  </li><li><strong>外观模式</strong>：简化复杂子系统调用（如一键启动计算机）。 </li></ul><h4 id="行为型模式（处理对象交互）"><a href="#行为型模式（处理对象交互）" class="headerlink" title="行为型模式（处理对象交互）"></a>行为型模式（处理对象交互）</h4><ul><li><strong>策略模式</strong>：封装可互换算法（如排序策略切换）。  </li><li><strong>观察者模式</strong>：一对多状态通知（如事件监听系统）。  </li><li><strong>迭代器模式</strong>：统一集合遍历方式（如Java集合的<code>Iterator</code>）。  </li><li><strong>责任链模式</strong>：链式处理请求（如审批流程）。  </li></ul><hr><h3 id="学习路径"><a href="#学习路径" class="headerlink" title="学习路径"></a>学习路径</h3><p><strong>理论奠基</strong>  </p><ul><li>理解模式的意图、UML类图和适用场景。例如，观察者模式包含<code>Subject</code>和<code>Observer</code>接口。  </li><li>对比模式优缺点：单例模式节省资源但可能引入全局状态问题。  </li></ul><p><strong>代码实践</strong>  </p><ul><li>手写经典实现，如懒汉式单例的双重检查锁定：  </li></ul><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Singleton</span> &#123;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">volatile</span> Singleton instance;</span><br><span class="line">    <span class="keyword">private</span> <span class="title function_">Singleton</span><span class="params">()</span> &#123;&#125;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> Singleton <span class="title function_">getInstance</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="keyword">if</span> (instance == <span class="literal">null</span>) &#123;</span><br><span class="line">            <span class="keyword">synchronized</span> (Singleton.class) &#123;</span><br><span class="line">                <span class="keyword">if</span> (instance == <span class="literal">null</span>) &#123;</span><br><span class="line">                    instance = <span class="keyword">new</span> <span class="title class_">Singleton</span>();</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> instance;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><strong>项目应用</strong>  </p><ul><li>识别代码坏味道：大量<code>if-else</code>可改用策略模式。  </li><li>避免滥用：简单场景无需引入抽象工厂。  </li></ul><p><strong>面试准备</strong>  </p><ul><li>高频问题：如何实现线程安全的单例？何时用装饰器而非继承？  </li><li>场景分析：设计一个支持撤销操作的编辑器（命令模式）。  </li></ul><hr><h3 id="推荐资源"><a href="#推荐资源" class="headerlink" title="推荐资源"></a>推荐资源</h3><ul><li><strong>书籍</strong>：《图解设计模式》。  </li><li><strong>在线</strong>：  <ul><li>菜鸟教程-设计模式（含代码示例）。</li><li>视频-b站-<a href="https://www.bilibili.com/video/BV1af4y1y7sS?spm_id_from=333.788.videopod.sections&amp;vd_source=2480596959bf3131bb20161784528140">5分钟学设计模式</a>  </li></ul></li><li><strong>工具</strong>：使用StarUML绘制模式类图辅助理解。  </li></ul><p>通过“学习→编码→重构”的闭环，逐步掌握模式精髓。</p>]]></content>
+        <content type="html"><![CDATA[<h1 id="设计模式快速入门"><a href="#设计模式快速入门" class="headerlink" title="设计模式快速入门"></a>设计模式快速入门</h1><h3 id="设计模式概念"><a href="#设计模式概念" class="headerlink" title="设计模式概念"></a>设计模式概念</h3><p>设计模式是针对软件设计中常见问题的标准化解决方案，提供可重用的设计模板。它们不是直接代码，而是描述如何组织代码结构的最佳实践，能提升代码可维护性、扩展性和复用性。</p><h2 id=""><a href="#" class="headerlink" title=""></a></h2><h3 id="常用设计模式分类"><a href="#常用设计模式分类" class="headerlink" title="常用设计模式分类"></a>常用设计模式分类</h3><h4 id="创建型模式（处理对象创建）"><a href="#创建型模式（处理对象创建）" class="headerlink" title="创建型模式（处理对象创建）"></a>创建型模式（处理对象创建）</h4><ul><li><strong>单例模式</strong>：确保类只有一个实例（如全局配置管理器）。  </li><li><strong>工厂方法模式</strong>：子类决定实例化哪个类（如支付方式工厂）。  </li><li><strong>抽象工厂模式</strong>：创建相关对象族（如跨平台UI组件库）。  </li><li><strong>建造者模式</strong>：分步骤构建复杂对象（如SQL查询构造器）。  </li><li><strong>原型模式</strong>：通过克隆生成新对象（如游戏中的敌人复制）。  </li></ul><h4 id="结构型模式（处理对象组合）"><a href="#结构型模式（处理对象组合）" class="headerlink" title="结构型模式（处理对象组合）"></a>结构型模式（处理对象组合）</h4><ul><li><strong>适配器模式</strong>：转换接口兼容性（如旧API适配新系统）。  </li><li><strong>装饰器模式</strong>：动态扩展功能（如Java I/O流包装）。  </li><li><strong>代理模式</strong>：控制对象访问（如虚拟代理延迟加载图片）。  </li><li><strong>外观模式</strong>：简化复杂子系统调用（如一键启动计算机）。 </li></ul><h4 id="行为型模式（处理对象交互）"><a href="#行为型模式（处理对象交互）" class="headerlink" title="行为型模式（处理对象交互）"></a>行为型模式（处理对象交互）</h4><ul><li><strong>策略模式</strong>：封装可互换算法（如排序策略切换）。  </li><li><strong>观察者模式</strong>：一对多状态通知（如事件监听系统）。  </li><li><strong>迭代器模式</strong>：统一集合遍历方式（如Java集合的<code>Iterator</code>）。  </li><li><strong>责任链模式</strong>：链式处理请求（如审批流程）。  </li></ul><hr><h3 id="学习路径"><a href="#学习路径" class="headerlink" title="学习路径"></a>学习路径</h3><p><strong>理论奠基</strong>  </p><ul><li>理解模式的意图、UML类图和适用场景。例如，观察者模式包含<code>Subject</code>和<code>Observer</code>接口。  </li><li>对比模式优缺点：单例模式节省资源但可能引入全局状态问题。  </li></ul><p><strong>代码实践</strong>  </p><ul><li>手写经典实现，如懒汉式单例的双重检查锁定：  </li></ul><figure class="highlight java"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">public</span> <span class="keyword">class</span> <span class="title class_">Singleton</span> &#123;</span><br><span class="line">    <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">volatile</span> Singleton instance;</span><br><span class="line">    <span class="keyword">private</span> <span class="title function_">Singleton</span><span class="params">()</span> &#123;&#125;</span><br><span class="line">    <span class="keyword">public</span> <span class="keyword">static</span> Singleton <span class="title function_">getInstance</span><span class="params">()</span> &#123;</span><br><span class="line">        <span class="keyword">if</span> (instance == <span class="literal">null</span>) &#123;</span><br><span class="line">            <span class="keyword">synchronized</span> (Singleton.class) &#123;</span><br><span class="line">                <span class="keyword">if</span> (instance == <span class="literal">null</span>) &#123;</span><br><span class="line">                    instance = <span class="keyword">new</span> <span class="title class_">Singleton</span>();</span><br><span class="line">                &#125;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">        <span class="keyword">return</span> instance;</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p><strong>项目应用</strong>  </p><ul><li>识别代码坏味道：大量<code>if-else</code>可改用策略模式。  </li><li>避免滥用：简单场景无需引入抽象工厂。  </li></ul><p><strong>面试准备</strong>  </p><ul><li>高频问题：如何实现线程安全的单例？何时用装饰器而非继承？  </li><li>场景分析：设计一个支持撤销操作的编辑器（命令模式）。  </li></ul><hr><h3 id="推荐资源"><a href="#推荐资源" class="headerlink" title="推荐资源"></a>推荐资源</h3><ul><li><strong>书籍</strong>：《图解设计模式》。  </li><li><strong>在线</strong>：  <ul><li>菜鸟教程-设计模式（含代码示例）。</li><li>视频-b站-<a href="https://www.bilibili.com/video/BV1af4y1y7sS?spm_id_from=333.788.videopod.sections&amp;vd_source=2480596959bf3131bb20161784528140">5分钟学设计模式</a>  </li></ul></li><li><strong>工具</strong>：使用StarUML绘制模式类图辅助理解。  </li></ul><p>通过“学习→编码→重构”的闭环，逐步掌握模式精髓。</p>]]></content>
       
       
       <categories>
@@ -408,17 +421,6 @@
     
     
     <entry>
-      <title></title>
-      <link href="/manifest.json"/>
-      <url>/manifest.json</url>
-      
-        <content type="html"><![CDATA[{"name":"DB_platypuS`Blog","short_name":"DB_platypuS","theme_color":"#3b70fc","background_color":"#3b70fc","display":"standalone","scope":"/","start_url":"/","icons":[{"src":"/img/siteicon/16.png","sizes":"16x16","type":"image/png"},{"src":"/img/siteicon/32.png","sizes":"32x32","type":"image/png"},{"src":"/img/siteicon/48.png","sizes":"48x48","type":"image/png"},{"src":"/img/siteicon/64.png","sizes":"64x64","type":"image/png"},{"src":"/img/siteicon/128.png","sizes":"128x128","type":"image/png"},{"src":"/img/siteicon/144.png","sizes":"144x144","type":"image/png"},{"src":"/img/siteicon/512.png","sizes":"512x512","type":"image/png"}],"splash_pages":null}]]></content>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>about</title>
       <link href="/about/index.html"/>
       <url>/about/index.html</url>
@@ -435,6 +437,17 @@
       <url>/categories/index.html</url>
       
         <content type="html"><![CDATA[]]></content>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/manifest.json"/>
+      <url>/manifest.json</url>
+      
+        <content type="html"><![CDATA[{"name":"DB_platypuS`Blog","short_name":"DB_platypuS","theme_color":"#3b70fc","background_color":"#3b70fc","display":"standalone","scope":"/","start_url":"/","icons":[{"src":"/img/siteicon/16.png","sizes":"16x16","type":"image/png"},{"src":"/img/siteicon/32.png","sizes":"32x32","type":"image/png"},{"src":"/img/siteicon/48.png","sizes":"48x48","type":"image/png"},{"src":"/img/siteicon/64.png","sizes":"64x64","type":"image/png"},{"src":"/img/siteicon/128.png","sizes":"128x128","type":"image/png"},{"src":"/img/siteicon/144.png","sizes":"144x144","type":"image/png"},{"src":"/img/siteicon/512.png","sizes":"512x512","type":"image/png"}],"splash_pages":null}]]></content>
       
     </entry>
     
