@@ -4,7 +4,7 @@
   <url>
     <loc>https://db-hanty.github.io/manifest.json</loc>
     
-    <lastmod>2025-09-12</lastmod>
+    <lastmod>2025-09-17</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -13,151 +13,7 @@
   <url>
     <loc>https://db-hanty.github.io/tags/index.html</loc>
     
-    <lastmod>2025-09-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://db-hanty.github.io/posts/e17b4fc3.html</loc>
-    
-    <lastmod>2025-09-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://db-hanty.github.io/posts/7b510e10.html</loc>
-    
-    <lastmod>2025-09-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://db-hanty.github.io/posts/6efdc0e0.html</loc>
-    
-    <lastmod>2025-09-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://db-hanty.github.io/posts/f1601c3e.html</loc>
-    
-    <lastmod>2025-09-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://db-hanty.github.io/posts/f7de8aa8.html</loc>
-    
-    <lastmod>2025-09-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://db-hanty.github.io/posts/54788f73.html</loc>
-    
-    <lastmod>2025-09-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://db-hanty.github.io/posts/fe816c3c.html</loc>
-    
-    <lastmod>2025-09-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://db-hanty.github.io/posts/ecc6414b.html</loc>
-    
-    <lastmod>2025-09-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://db-hanty.github.io/posts/72e3b671.html</loc>
-    
-    <lastmod>2025-09-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://db-hanty.github.io/posts/9a246216.html</loc>
-    
-    <lastmod>2025-09-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://db-hanty.github.io/posts/2c4abd50.html</loc>
-    
-    <lastmod>2025-09-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://db-hanty.github.io/posts/6208627e.html</loc>
-    
-    <lastmod>2025-09-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://db-hanty.github.io/posts/9055d217.html</loc>
-    
-    <lastmod>2025-09-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://db-hanty.github.io/posts/f5c535ea.html</loc>
-    
-    <lastmod>2025-09-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://db-hanty.github.io/about/index.html</loc>
-    
-    <lastmod>2025-09-12</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://db-hanty.github.io/categories/index.html</loc>
-    
-    <lastmod>2025-09-12</lastmod>
+    <lastmod>2025-09-17</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -166,7 +22,160 @@
   <url>
     <loc>https://db-hanty.github.io/posts/56e00ecd.html</loc>
     
-    <lastmod>2025-09-12</lastmod>
+    <lastmod>2025-09-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://db-hanty.github.io/posts/e17b4fc3.html</loc>
+    
+    <lastmod>2025-09-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://db-hanty.github.io/posts/7b510e10.html</loc>
+    
+    <lastmod>2025-09-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://db-hanty.github.io/posts/6efdc0e0.html</loc>
+    
+    <lastmod>2025-09-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://db-hanty.github.io/posts/f1601c3e.html</loc>
+    
+    <lastmod>2025-09-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://db-hanty.github.io/posts/f7de8aa8.html</loc>
+    
+    <lastmod>2025-09-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://db-hanty.github.io/posts/54788f73.html</loc>
+    
+    <lastmod>2025-09-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://db-hanty.github.io/posts/fe816c3c.html</loc>
+    
+    <lastmod>2025-09-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://db-hanty.github.io/posts/df670201.html</loc>
+    
+    <lastmod>2025-09-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://db-hanty.github.io/posts/ecc6414b.html</loc>
+    
+    <lastmod>2025-09-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://db-hanty.github.io/posts/72e3b671.html</loc>
+    
+    <lastmod>2025-09-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://db-hanty.github.io/posts/9a246216.html</loc>
+    
+    <lastmod>2025-09-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://db-hanty.github.io/posts/2c4abd50.html</loc>
+    
+    <lastmod>2025-09-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://db-hanty.github.io/posts/6208627e.html</loc>
+    
+    <lastmod>2025-09-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://db-hanty.github.io/posts/9055d217.html</loc>
+    
+    <lastmod>2025-09-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://db-hanty.github.io/posts/f5c535ea.html</loc>
+    
+    <lastmod>2025-09-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://db-hanty.github.io/about/index.html</loc>
+    
+    <lastmod>2025-09-17</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://db-hanty.github.io/categories/index.html</loc>
+    
+    <lastmod>2025-09-17</lastmod>
     
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
@@ -175,7 +184,7 @@
 
   <url>
     <loc>https://db-hanty.github.io/</loc>
-    <lastmod>2025-09-12</lastmod>
+    <lastmod>2025-09-17</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -183,35 +192,42 @@
   
   <url>
     <loc>https://db-hanty.github.io/tags/%E4%BA%BA%E7%89%A9%E4%BC%A0%E8%AE%B0/</loc>
-    <lastmod>2025-09-12</lastmod>
+    <lastmod>2025-09-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://db-hanty.github.io/tags/%E7%90%86%E8%B4%A2/</loc>
-    <lastmod>2025-09-12</lastmod>
+    <lastmod>2025-09-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://db-hanty.github.io/tags/%E6%8A%80%E6%9C%AF/</loc>
-    <lastmod>2025-09-12</lastmod>
+    <lastmod>2025-09-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://db-hanty.github.io/tags/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F/</loc>
-    <lastmod>2025-09-12</lastmod>
+    <lastmod>2025-09-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://db-hanty.github.io/tags/%E5%B7%A5%E5%85%B7/</loc>
-    <lastmod>2025-09-12</lastmod>
+    <lastmod>2025-09-17</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://db-hanty.github.io/tags/%E5%BC%80%E5%8F%91%E6%A1%86%E6%9E%B6/</loc>
+    <lastmod>2025-09-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
@@ -220,14 +236,14 @@
   
   <url>
     <loc>https://db-hanty.github.io/categories/%E4%B9%A6%E7%B1%8D/</loc>
-    <lastmod>2025-09-12</lastmod>
+    <lastmod>2025-09-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>https://db-hanty.github.io/categories/%E6%8A%80%E6%9C%AF/</loc>
-    <lastmod>2025-09-12</lastmod>
+    <lastmod>2025-09-17</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
