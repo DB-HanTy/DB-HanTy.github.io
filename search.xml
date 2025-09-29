@@ -4,6 +4,33 @@
   
     
     <entry>
+      <title>Redis的深入与应用总结</title>
+      <link href="/posts/36b54318.html"/>
+      <url>/posts/36b54318.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="Redis学习与应用总结"><a href="#Redis学习与应用总结" class="headerlink" title="Redis学习与应用总结"></a>Redis学习与应用总结</h1><h2 id="什么是缓存？"><a href="#什么是缓存？" class="headerlink" title="什么是缓存？"></a>什么是缓存？</h2><p>缓存是数据交换的缓冲区，用于加速数据的读取，减少对底层数据库的压力。</p><ul><li><strong>本地缓存</strong>：将热点数据放在应用本地内存中，例如 Caffeine 库，访问速度快，但无法在分布式环境下共享。</li><li><strong>分布式缓存</strong>：典型代表是 Redis，支持多实例共享数据，适合分布式系统。</li></ul><h2 id="多级缓存"><a href="#多级缓存" class="headerlink" title="多级缓存"></a>多级缓存</h2><p>常见架构：本地缓存 + Redis 分布式缓存</p><ul><li>先查本地缓存</li><li>本地没有再查 Redis</li><li>Redis 也没有再查数据库，并回填缓存</li></ul><h2 id="Redis-基础"><a href="#Redis-基础" class="headerlink" title="Redis 基础"></a>Redis 基础</h2><h3 id="数据类型"><a href="#数据类型" class="headerlink" title="数据类型"></a>数据类型</h3><ul><li><strong>String</strong>：最基本的数据类型</li><li><strong>Hash</strong>：存储键值对集合，类似 map</li><li><strong>List</strong>：有序列表</li><li><strong>Set</strong>：无序集合</li><li><strong>Sorted Set (ZSet)</strong>：有序集合</li></ul><h3 id="常用操作"><a href="#常用操作" class="headerlink" title="常用操作"></a>常用操作</h3><ul><li>set/get/del</li><li>hset/hget/hmset/hmget</li><li>lpush/rpush/lpop/rpop</li><li>sadd/smembers/srem</li><li>zadd/zrange/zrem</li></ul><h2 id="Java-操作-Redis"><a href="#Java-操作-Redis" class="headerlink" title="Java 操作 Redis"></a>Java 操作 Redis</h2><h3 id="Spring-Boot-Redis-Template"><a href="#Spring-Boot-Redis-Template" class="headerlink" title="Spring Boot Redis Template"></a>Spring Boot Redis Template</h3><p>Spring 提供的 <code>RedisTemplate</code> 可以简化 Redis 操作。</p><h3 id="Redisson"><a href="#Redisson" class="headerlink" title="Redisson"></a>Redisson</h3><p>基于 Redis 的分布式框架，提供分布式锁、集合、队列等高级功能。</p><h2 id="Redis-部署模型"><a href="#Redis-部署模型" class="headerlink" title="Redis 部署模型"></a>Redis 部署模型</h2><h3 id="主从模型"><a href="#主从模型" class="headerlink" title="主从模型"></a>主从模型</h3><ul><li>主节点负责写入</li><li>从节点同步主节点数据，用于读操作分流</li></ul><h3 id="哨兵集群"><a href="#哨兵集群" class="headerlink" title="哨兵集群"></a>哨兵集群</h3><ul><li>监控主节点状态</li><li>主节点宕机时自动切换</li></ul><h3 id="日志与持久化"><a href="#日志与持久化" class="headerlink" title="日志与持久化"></a>日志与持久化</h3><ul><li><strong>RDB</strong>：快照形式持久化</li><li><strong>AOF</strong>：追加日志形式持久化</li><li><strong>混合持久化</strong>：RDB + AOF</li></ul><h2 id="缓存（Redis）应用场景"><a href="#缓存（Redis）应用场景" class="headerlink" title="缓存（Redis）应用场景"></a>缓存（Redis）应用场景</h2><ul><li><strong>数据共享</strong>：多应用间共享热点数据</li><li><strong>单点登录（SSO）</strong>：存储用户会话</li><li><strong>计数器</strong>：如文章阅读量</li><li><strong>限流</strong>：接口访问限速</li><li><strong>点赞</strong>：用户点赞、取消点赞</li><li><strong>实时排行榜</strong>：基于 ZSet</li><li><strong>分布式锁</strong>：基于 setnx 实现</li></ul><h2 id="缓存常见问题"><a href="#缓存常见问题" class="headerlink" title="缓存常见问题"></a>缓存常见问题</h2><h3 id="缓存雪崩"><a href="#缓存雪崩" class="headerlink" title="缓存雪崩"></a>缓存雪崩</h3><p>大量缓存同一时间失效，导致请求全部打到数据库。<br><strong>解决办法</strong>：设置随机过期时间，热点数据永不过期。</p><h3 id="缓存击穿"><a href="#缓存击穿" class="headerlink" title="缓存击穿"></a>缓存击穿</h3><p>热点 key 突然失效，大量请求打到数据库。<br><strong>解决办法</strong>：互斥锁、逻辑过期。</p><h3 id="缓存穿透"><a href="#缓存穿透" class="headerlink" title="缓存穿透"></a>缓存穿透</h3><p>查询不存在的数据，导致请求绕过缓存直达数据库。<br><strong>解决办法</strong>：布隆过滤器、缓存空值。</p><h3 id="缓存一致性"><a href="#缓存一致性" class="headerlink" title="缓存一致性"></a>缓存一致性</h3><p>数据库和缓存数据不一致。<br><strong>解决办法</strong>：延时双删、消息队列。</p><h2 id="相关技术"><a href="#相关技术" class="headerlink" title="相关技术"></a>相关技术</h2><ul><li><strong>Memcached</strong>：早期高性能缓存系统，但功能较少。</li><li><strong>Ehcache</strong>：Java 本地缓存框架，常用于单机应用。</li></ul><h2 id="学习建议"><a href="#学习建议" class="headerlink" title="学习建议"></a>学习建议</h2><ol><li>先掌握 Redis 的基础数据类型和常用操作。</li><li>学习 Spring Boot 中的 RedisTemplate 和 Redisson。</li><li>理解 Redis 的持久化、主从复制与哨兵机制。</li><li>深入学习缓存问题（雪崩、击穿、穿透）及解决方案。</li><li>对比 Redis 与 Memcached、Ehcache 的异同，理解不同场景下的选择。<br>“””</li></ol>]]></content>
+      
+      
+      <categories>
+          
+          <category> 技术 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 技术 </tag>
+            
+            <tag> Redis </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>Redis快速入门与简单介绍</title>
       <link href="/posts/undefined.html"/>
       <url>/posts/undefined.html</url>
